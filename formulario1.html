@@ -1,0 +1,71 @@
+<!-- Formulario de Contacto Culinario con estilo Italiano -->
+<form 
+  action="https://formspree.io/f/xvgqjgly" 
+  method="POST"
+  style="max-width: 550px; margin: auto; padding: 25px; background: #000; border-radius: 15px; font-family: 'Arial', sans-serif; box-shadow: 0 4px 15px rgba(0,0,0,0.5); color: #fff;"
+>
+  <h2 style="text-align:center; color:#27ae60; font-size: 24px; margin-bottom: 20px;">
+     Bienvenido al La Trattoria Italiana 
+  </h2>
+
+  <!-- Campo oculto -->
+  <input type="hidden" name="_replyto" value="delosangelescruzluca@gmail.com">
+
+  <label style="display:block; margin-bottom: 15px;">
+    Tu nombre:
+    <input type="text" name="nombre" required 
+      style="width:100%; padding:10px; margin-top:6px; border:1px solid #27ae60; border-radius:8px; background:#111; color:#fff;">
+  </label>
+
+  <label style="display:block; margin-bottom: 15px;">
+    Correo electrónico:
+    <input type="email" name="email" required 
+      style="width:100%; padding:10px; margin-top:6px; border:1px solid #27ae60; border-radius:8px; background:#111; color:#fff;">
+  </label>
+
+   <label style="display:block; margin-bottom: 15px;">
+    Con que frecuencia nos visitas:
+    <select name="experiencia en el servicio" 
+      style="width:100%; padding:10px; margin-top:6px; border:1px solid #27ae60; border-radius:8px; background:#111; color:#fff;">
+      <option value="Muy seguido">Muy seguido </option>
+      <option value="Regularmente">Regularmente </option>
+      <option value="es mi primera vez">es mi primera vez</option>
+    </select>
+  </label>
+ 
+ <label style="display:block; margin-bottom: 15px;">
+    Experiencia en el servicio:
+    <select name="experiencia en el servicio" 
+      style="width:100%; padding:10px; margin-top:6px; border:1px solid #27ae60; border-radius:8px; background:#111; color:#fff;">
+      <option value="Buena">Buena</option>
+      <option value="Intermedia">Intermedia</option>
+      <option value="Mala">Mala</option>
+    </select>
+  </label>
+
+ <label style="display:block; margin-bottom: 15px;">
+    Nos recomendarias?:
+    <select name="experiencia en el servicio" 
+      style="width:100%; padding:10px; margin-top:6px; border:1px solid #27ae60; border-radius:8px; background:#111; color:#fff;">
+      <option value="definitivamente si">definitivamente si</option>
+      <option value="tal vez">tal vez</option>
+      <option value="definitivamente no">definitivamente no</option>
+    </select>
+  </label>
+
+
+  <label style="display:block; margin-bottom: 15px;">
+    Comparte tus comentarios:
+    <textarea name="mensaje" rows="5" placeholder="Escribe tu experiencia" 
+      style="width:100%; padding:10px; margin-top:6px; border:1px solid #27ae60; border-radius:8px; background:#111; color:#fff;"></textarea>
+  </label>
+
+  <button type="submit" 
+    style="background:#27ae60; color:#fff; border:none; padding:12px 20px; border-radius:10px; cursor:pointer; font-size:18px; width:100%; margin-top:15px; font-weight:bold; transition:0.3s;">
+    Enviar 
+  </button>
+
+  <p style="text-align:center; font-size:14px; margin-top:15px; color:#FFFFFF;">
+    este formulario nos ayuda a mejorar tu experiencia❤️
+  </p>
+</form>

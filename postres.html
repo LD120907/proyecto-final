@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postres Italianos</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e6f2e6;
+            margin: 0;
+            padding: 0;
+            color: #000;
+        }
+        header { background-color: #006400; color: white; text-align: center; padding: 20px 0; }
+        h1 { margin: 0; }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background-color: #000;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            overflow: hidden;
+            transition: transform 0.3s;
+            color: white;
+        }
+        .card:hover { transform: scale(1.05); }
+        .card img { width: 100%; height: 180px; object-fit: cover; }
+        .card-content { padding: 15px; }
+        .card-content h2 { margin-top: 0; color: #32cd32; }
+        .card-content p { color: #f0f0f0; }
+        footer { text-align: center; padding: 15px; background-color: #006400; color: white; margin-top: 30px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Postres Italianos</h1>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <img src="11.jpg" alt="Tiramisú">
+            <div class="card-content">
+                <h2>Tiramisú</h2>
+                <p>Clásico postre italiano con capas de bizcocho, café y crema de mascarpone.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="10.jpg" alt="Gelato">
+            <div class="card-content">
+                <h2>Gelato</h2>
+                <p>Helado italiano cremoso con sabores intensos y naturales.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Postres Italianos
+    </footer>
+</body>
+</html>

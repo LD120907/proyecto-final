@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>La Trattoria Italiana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2E8B57; /* Fondo verde */
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #000000; /* Fondo negro */
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin-top: 5px;
+            color: #ccc;
+        }
+
+        /* Estilo del menú desplegable */
+        nav {
+            margin-top: 15px;
+        }
+
+        .menu-dropdown {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: inline-block;
+            position: relative;
+        }
+
+        .menu-dropdown > li {
+            position: relative;
+            display: inline-block;
+        }
+
+        .menu-dropdown > li > a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            background-color: #333;
+            display: block;
+        }
+
+        .menu-dropdown > li > a:hover {
+            background-color: #444;
+        }
+
+        /* Submenú */
+        .menu-dropdown li ul {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            min-width: 250px;
+            z-index: 1;
+        }
+
+        .menu-dropdown li:hover ul {
+            display: block;
+        }
+
+        .menu-dropdown li ul li a {
+            padding: 10px 15px;
+            display: block;
+            color: white;
+            text-decoration: none;
+            border-bottom: 1px solid #555;
+        }
+
+        .menu-dropdown li ul li a:hover {
+            background-color: #555;
+        }
+
+        /* Menú de platillos */
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 30px 0;
+        }
+
+        .menu-item {
+            background-color: #333;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 8px;
+            width: 250px;
+            text-align: center;
+        }
+
+        .menu-item h3 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+
+        .menu-item p {
+            margin: 10px 0;
+        }
+
+        .menu-item span {
+            font-weight: bold;
+        }
+
+        .link-container {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .link-container a {
+            color: #fff;
+            font-size: 1.2em;
+            text-decoration: none;
+            background-color: #000;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        .link-container a:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>La Trattoria Italiana</h1>
+    <p>Un pedazo de Italia en tu ciudad</p>
+
+    <!-- Menú desplegable con enlaces -->
+    <nav>
+        <ul class="menu-dropdown">
+            <li><a href="#">Menú</a>
+                <ul>
+                    <li><a href="file:///C:/Users/Sala%20de%20Computo%2004/Documents/pagina%20web%20LD/entradas.html">Entradas</a></li>
+                    <li><a href="file:///C:/Users/Sala%20de%20Computo%2004/Documents/pagina%20web%20LD/comidas.html">Comidas</a></li>
+                    <li><a href="file:///C:/Users/Sala%20de%20Computo%2004/Documents/pagina%20web%20LD/postres.html">Postres</a></li>
+                    <li><a href="file:///C:/Users/Sala%20de%20Computo%2004/Documents/pagina%20web%20LD/bebidas.html">Bebidas</a></li>
+                    <li><a href="file:///C:/Users/Sala%20de%20Computo%2004/Documents/pagina%20web%20LD/formulario1.html">Apóyanos con un comentario</a></li>
+                    
+                   
+                    <li>
+                        <a href="file:///C:/Users/Sala%20de%20Computo%2004/Documents/pagina%20web%20LD/index2.html">
+                            Conoce nuestras ofertas y futuros proyectos
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Sección de Platillos -->
+<section class="menu" id="comidas">
+    <div class="menu-item">
+        <h3>Spaghetti alla Carbonara</h3>
+        <p>Salsa cremosa con huevo, panceta y queso Pecorino Romano</p>
+        <span>€12.99</span>
+    </div>
+    <div class="menu-item">
+        <h3>Pizza Margherita</h3>
+        <p>Tomate fresco, mozzarella y albahaca</p>
+        <span>€9.99</span>
+    </div>
+    <div class="menu-item">
+        <h3>Ravioli de Ricotta</h3>
+        <p>Pasta rellena de ricotta y espinacas, servida con salsa de tomate</p>
+        <span>€13.49</span>
+    </div>
+    <div class="menu-item">
+        <h3>Lasagna Bolognese</h3>
+        <p>Capa de pasta, carne molida, salsa bechamel y queso</p>
+        <span>€14.99</span>
+    </div>
+</section>
+
+<!-- Botón hacia otra página -->
+<div class="link-container">
+    <a href="inicio1.html">Visita nuestro sitio web</a>
+</div>
+
+</body>
+</html>
+
